@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CLionProjects/apue-practice/c7/c7_header.h
+stdio.h
+-
+
+E:/CLionProjects/apue-practice/c7/c7_main.c
+c7_header.h
+E:/CLionProjects/apue-practice/c7/c7_header.h
+
