@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-E:/CLionProjects/apue-practice/c7/c7_header.h
+E:/CLionProjects/apue-practice/c11/TestPThread.c
+c11_header.h
+E:/CLionProjects/apue-practice/c11/c11_header.h
+
+E:/CLionProjects/apue-practice/c11/c11_header.h
 stdio.h
 -
+unistd.h
+-
+pthread.h
+-
 
-E:/CLionProjects/apue-practice/c7/c7_main.c
-c7_header.h
-E:/CLionProjects/apue-practice/c7/c7_header.h
+E:/CLionProjects/apue-practice/c11/c11_main.c
+c11_header.h
+E:/CLionProjects/apue-practice/c11/c11_header.h
 

@@ -76,13 +76,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/CLionProjects/apue-practice/c7/c7_header.h">
+		<Unit filename="E:/CLionProjects/apue-practice/c11/ProducerConsumer.c">
 			<Option target="apue_practice"/>
 		</Unit>
-		<Unit filename="E:/CLionProjects/apue-practice/c7/c7_main.c">
+		<Unit filename="E:/CLionProjects/apue-practice/c11/TestPThread.c">
 			<Option target="apue_practice"/>
 		</Unit>
-		<Unit filename="E:/CLionProjects/apue-practice/c8/c8_main.c">
+		<Unit filename="E:/CLionProjects/apue-practice/c11/c11_header.h">
+			<Option target="apue_practice"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/apue-practice/c11/c11_main.c">
 			<Option target="apue_practice"/>
 		</Unit>
 		<Unit filename="E:/CLionProjects/apue-practice/CMakeLists.txt">

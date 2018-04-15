@@ -122,59 +122,86 @@ apue_practice/fast:
 	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/build
 .PHONY : apue_practice/fast
 
-c7/c7_main.obj: c7/c7_main.c.obj
+c11/ProducerConsumer.obj: c11/ProducerConsumer.c.obj
 
-.PHONY : c7/c7_main.obj
-
-# target to build an object file
-c7/c7_main.c.obj:
-	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c7/c7_main.c.obj
-.PHONY : c7/c7_main.c.obj
-
-c7/c7_main.i: c7/c7_main.c.i
-
-.PHONY : c7/c7_main.i
-
-# target to preprocess a source file
-c7/c7_main.c.i:
-	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c7/c7_main.c.i
-.PHONY : c7/c7_main.c.i
-
-c7/c7_main.s: c7/c7_main.c.s
-
-.PHONY : c7/c7_main.s
-
-# target to generate assembly for a file
-c7/c7_main.c.s:
-	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c7/c7_main.c.s
-.PHONY : c7/c7_main.c.s
-
-c8/c8_main.obj: c8/c8_main.c.obj
-
-.PHONY : c8/c8_main.obj
+.PHONY : c11/ProducerConsumer.obj
 
 # target to build an object file
-c8/c8_main.c.obj:
-	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c8/c8_main.c.obj
-.PHONY : c8/c8_main.c.obj
+c11/ProducerConsumer.c.obj:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj
+.PHONY : c11/ProducerConsumer.c.obj
 
-c8/c8_main.i: c8/c8_main.c.i
+c11/ProducerConsumer.i: c11/ProducerConsumer.c.i
 
-.PHONY : c8/c8_main.i
+.PHONY : c11/ProducerConsumer.i
 
 # target to preprocess a source file
-c8/c8_main.c.i:
-	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c8/c8_main.c.i
-.PHONY : c8/c8_main.c.i
+c11/ProducerConsumer.c.i:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.i
+.PHONY : c11/ProducerConsumer.c.i
 
-c8/c8_main.s: c8/c8_main.c.s
+c11/ProducerConsumer.s: c11/ProducerConsumer.c.s
 
-.PHONY : c8/c8_main.s
+.PHONY : c11/ProducerConsumer.s
 
 # target to generate assembly for a file
-c8/c8_main.c.s:
-	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c8/c8_main.c.s
-.PHONY : c8/c8_main.c.s
+c11/ProducerConsumer.c.s:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.s
+.PHONY : c11/ProducerConsumer.c.s
+
+c11/TestPThread.obj: c11/TestPThread.c.obj
+
+.PHONY : c11/TestPThread.obj
+
+# target to build an object file
+c11/TestPThread.c.obj:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj
+.PHONY : c11/TestPThread.c.obj
+
+c11/TestPThread.i: c11/TestPThread.c.i
+
+.PHONY : c11/TestPThread.i
+
+# target to preprocess a source file
+c11/TestPThread.c.i:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/TestPThread.c.i
+.PHONY : c11/TestPThread.c.i
+
+c11/TestPThread.s: c11/TestPThread.c.s
+
+.PHONY : c11/TestPThread.s
+
+# target to generate assembly for a file
+c11/TestPThread.c.s:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/TestPThread.c.s
+.PHONY : c11/TestPThread.c.s
+
+c11/c11_main.obj: c11/c11_main.c.obj
+
+.PHONY : c11/c11_main.obj
+
+# target to build an object file
+c11/c11_main.c.obj:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/c11_main.c.obj
+.PHONY : c11/c11_main.c.obj
+
+c11/c11_main.i: c11/c11_main.c.i
+
+.PHONY : c11/c11_main.i
+
+# target to preprocess a source file
+c11/c11_main.c.i:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/c11_main.c.i
+.PHONY : c11/c11_main.c.i
+
+c11/c11_main.s: c11/c11_main.c.s
+
+.PHONY : c11/c11_main.s
+
+# target to generate assembly for a file
+c11/c11_main.c.s:
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/c11_main.c.s
+.PHONY : c11/c11_main.c.s
 
 # Help Target
 help:
@@ -185,12 +212,15 @@ help:
 	@echo ... apue_practice
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... c7/c7_main.obj
-	@echo ... c7/c7_main.i
-	@echo ... c7/c7_main.s
-	@echo ... c8/c8_main.obj
-	@echo ... c8/c8_main.i
-	@echo ... c8/c8_main.s
+	@echo ... c11/ProducerConsumer.obj
+	@echo ... c11/ProducerConsumer.i
+	@echo ... c11/ProducerConsumer.s
+	@echo ... c11/TestPThread.obj
+	@echo ... c11/TestPThread.i
+	@echo ... c11/TestPThread.s
+	@echo ... c11/c11_main.obj
+	@echo ... c11/c11_main.i
+	@echo ... c11/c11_main.s
 .PHONY : help
 
 

@@ -56,69 +56,95 @@ include CMakeFiles/apue_practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/apue_practice.dir/flags.make
 
-CMakeFiles/apue_practice.dir/c7/c7_main.c.obj: CMakeFiles/apue_practice.dir/flags.make
-CMakeFiles/apue_practice.dir/c7/c7_main.c.obj: ../c7/c7_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\apue-practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/apue_practice.dir/c7/c7_main.c.obj"
-	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\apue_practice.dir\c7\c7_main.c.obj   -c E:\CLionProjects\apue-practice\c7\c7_main.c
+CMakeFiles/apue_practice.dir/c11/c11_main.c.obj: CMakeFiles/apue_practice.dir/flags.make
+CMakeFiles/apue_practice.dir/c11/c11_main.c.obj: ../c11/c11_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\apue-practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/apue_practice.dir/c11/c11_main.c.obj"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\apue_practice.dir\c11\c11_main.c.obj   -c E:\CLionProjects\apue-practice\c11\c11_main.c
 
-CMakeFiles/apue_practice.dir/c7/c7_main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/apue_practice.dir/c7/c7_main.c.i"
-	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\apue-practice\c7\c7_main.c > CMakeFiles\apue_practice.dir\c7\c7_main.c.i
+CMakeFiles/apue_practice.dir/c11/c11_main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/apue_practice.dir/c11/c11_main.c.i"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\apue-practice\c11\c11_main.c > CMakeFiles\apue_practice.dir\c11\c11_main.c.i
 
-CMakeFiles/apue_practice.dir/c7/c7_main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/apue_practice.dir/c7/c7_main.c.s"
-	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\apue-practice\c7\c7_main.c -o CMakeFiles\apue_practice.dir\c7\c7_main.c.s
+CMakeFiles/apue_practice.dir/c11/c11_main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/apue_practice.dir/c11/c11_main.c.s"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\apue-practice\c11\c11_main.c -o CMakeFiles\apue_practice.dir\c11\c11_main.c.s
 
-CMakeFiles/apue_practice.dir/c7/c7_main.c.obj.requires:
+CMakeFiles/apue_practice.dir/c11/c11_main.c.obj.requires:
 
-.PHONY : CMakeFiles/apue_practice.dir/c7/c7_main.c.obj.requires
+.PHONY : CMakeFiles/apue_practice.dir/c11/c11_main.c.obj.requires
 
-CMakeFiles/apue_practice.dir/c7/c7_main.c.obj.provides: CMakeFiles/apue_practice.dir/c7/c7_main.c.obj.requires
-	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c7/c7_main.c.obj.provides.build
-.PHONY : CMakeFiles/apue_practice.dir/c7/c7_main.c.obj.provides
+CMakeFiles/apue_practice.dir/c11/c11_main.c.obj.provides: CMakeFiles/apue_practice.dir/c11/c11_main.c.obj.requires
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/c11_main.c.obj.provides.build
+.PHONY : CMakeFiles/apue_practice.dir/c11/c11_main.c.obj.provides
 
-CMakeFiles/apue_practice.dir/c7/c7_main.c.obj.provides.build: CMakeFiles/apue_practice.dir/c7/c7_main.c.obj
+CMakeFiles/apue_practice.dir/c11/c11_main.c.obj.provides.build: CMakeFiles/apue_practice.dir/c11/c11_main.c.obj
 
 
-CMakeFiles/apue_practice.dir/c8/c8_main.c.obj: CMakeFiles/apue_practice.dir/flags.make
-CMakeFiles/apue_practice.dir/c8/c8_main.c.obj: ../c8/c8_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\apue-practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/apue_practice.dir/c8/c8_main.c.obj"
-	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\apue_practice.dir\c8\c8_main.c.obj   -c E:\CLionProjects\apue-practice\c8\c8_main.c
+CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj: CMakeFiles/apue_practice.dir/flags.make
+CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj: ../c11/TestPThread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\apue-practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\apue_practice.dir\c11\TestPThread.c.obj   -c E:\CLionProjects\apue-practice\c11\TestPThread.c
 
-CMakeFiles/apue_practice.dir/c8/c8_main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/apue_practice.dir/c8/c8_main.c.i"
-	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\apue-practice\c8\c8_main.c > CMakeFiles\apue_practice.dir\c8\c8_main.c.i
+CMakeFiles/apue_practice.dir/c11/TestPThread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/apue_practice.dir/c11/TestPThread.c.i"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\apue-practice\c11\TestPThread.c > CMakeFiles\apue_practice.dir\c11\TestPThread.c.i
 
-CMakeFiles/apue_practice.dir/c8/c8_main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/apue_practice.dir/c8/c8_main.c.s"
-	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\apue-practice\c8\c8_main.c -o CMakeFiles\apue_practice.dir\c8\c8_main.c.s
+CMakeFiles/apue_practice.dir/c11/TestPThread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/apue_practice.dir/c11/TestPThread.c.s"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\apue-practice\c11\TestPThread.c -o CMakeFiles\apue_practice.dir\c11\TestPThread.c.s
 
-CMakeFiles/apue_practice.dir/c8/c8_main.c.obj.requires:
+CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj.requires:
 
-.PHONY : CMakeFiles/apue_practice.dir/c8/c8_main.c.obj.requires
+.PHONY : CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj.requires
 
-CMakeFiles/apue_practice.dir/c8/c8_main.c.obj.provides: CMakeFiles/apue_practice.dir/c8/c8_main.c.obj.requires
-	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c8/c8_main.c.obj.provides.build
-.PHONY : CMakeFiles/apue_practice.dir/c8/c8_main.c.obj.provides
+CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj.provides: CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj.requires
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj.provides.build
+.PHONY : CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj.provides
 
-CMakeFiles/apue_practice.dir/c8/c8_main.c.obj.provides.build: CMakeFiles/apue_practice.dir/c8/c8_main.c.obj
+CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj.provides.build: CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj
+
+
+CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj: CMakeFiles/apue_practice.dir/flags.make
+CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj: ../c11/ProducerConsumer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\apue-practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\apue_practice.dir\c11\ProducerConsumer.c.obj   -c E:\CLionProjects\apue-practice\c11\ProducerConsumer.c
+
+CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.i"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\apue-practice\c11\ProducerConsumer.c > CMakeFiles\apue_practice.dir\c11\ProducerConsumer.c.i
+
+CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.s"
+	D:\tool\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\apue-practice\c11\ProducerConsumer.c -o CMakeFiles\apue_practice.dir\c11\ProducerConsumer.c.s
+
+CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj.requires:
+
+.PHONY : CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj.requires
+
+CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj.provides: CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj.requires
+	$(MAKE) -f CMakeFiles\apue_practice.dir\build.make CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj.provides.build
+.PHONY : CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj.provides
+
+CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj.provides.build: CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj
 
 
 # Object files for target apue_practice
 apue_practice_OBJECTS = \
-"CMakeFiles/apue_practice.dir/c7/c7_main.c.obj" \
-"CMakeFiles/apue_practice.dir/c8/c8_main.c.obj"
+"CMakeFiles/apue_practice.dir/c11/c11_main.c.obj" \
+"CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj" \
+"CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj"
 
 # External object files for target apue_practice
 apue_practice_EXTERNAL_OBJECTS =
 
-apue_practice.exe: CMakeFiles/apue_practice.dir/c7/c7_main.c.obj
-apue_practice.exe: CMakeFiles/apue_practice.dir/c8/c8_main.c.obj
+apue_practice.exe: CMakeFiles/apue_practice.dir/c11/c11_main.c.obj
+apue_practice.exe: CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj
+apue_practice.exe: CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj
 apue_practice.exe: CMakeFiles/apue_practice.dir/build.make
 apue_practice.exe: CMakeFiles/apue_practice.dir/linklibs.rsp
 apue_practice.exe: CMakeFiles/apue_practice.dir/objects1.rsp
 apue_practice.exe: CMakeFiles/apue_practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CLionProjects\apue-practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable apue_practice.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CLionProjects\apue-practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable apue_practice.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\apue_practice.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,8 +152,9 @@ CMakeFiles/apue_practice.dir/build: apue_practice.exe
 
 .PHONY : CMakeFiles/apue_practice.dir/build
 
-CMakeFiles/apue_practice.dir/requires: CMakeFiles/apue_practice.dir/c7/c7_main.c.obj.requires
-CMakeFiles/apue_practice.dir/requires: CMakeFiles/apue_practice.dir/c8/c8_main.c.obj.requires
+CMakeFiles/apue_practice.dir/requires: CMakeFiles/apue_practice.dir/c11/c11_main.c.obj.requires
+CMakeFiles/apue_practice.dir/requires: CMakeFiles/apue_practice.dir/c11/TestPThread.c.obj.requires
+CMakeFiles/apue_practice.dir/requires: CMakeFiles/apue_practice.dir/c11/ProducerConsumer.c.obj.requires
 
 .PHONY : CMakeFiles/apue_practice.dir/requires
 

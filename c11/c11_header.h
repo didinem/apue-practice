@@ -7,7 +7,10 @@
 
 #include <stdio.h>
 #include <unistd.h>
+#include <pthread.h>
 
-void baseUse();
+void testPThreadSelf();
+
+void producer();
 
 #endif //APUE_PRACTICE_C8_HEADER_H

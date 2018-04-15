@@ -1,9 +1,4 @@
 "D:\tool\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\CLionProjects\apue-practice
-CMake Error at CMakeLists.txt:7 (add_executable):
-  The target name "c8/c8_main.c" is reserved or not valid for certain CMake
-  features, such as generator expressions, and may result in undefined
-  behavior.
-
-
--- Configuring incomplete, errors occurred!
-See also "E:/CLionProjects/apue-practice/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/CLionProjects/apue-practice/cmake-build-debug
